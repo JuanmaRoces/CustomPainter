@@ -16,10 +16,11 @@ class _GraficasCircularesState extends State<GraficasCirculares> {
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           setState(() {
-            porcentaje += 10;
+            porcentaje += 5;
             if (porcentaje>100)
               porcentaje = 0;
           });
+
         },
         child: Icon(Icons.refresh),
       ),
